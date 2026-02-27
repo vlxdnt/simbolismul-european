@@ -1,4 +1,4 @@
-# Simbolismul European - Studiu de Caz
+# Simbolismul European
 
 Acest proiect este o aplicație web interactivă dezvoltată pentru explorarea curentului literar și artistic al **Simbolismului European**.
 
