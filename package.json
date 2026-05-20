@@ -1,6 +1,7 @@
 {
   "name": "website-test",
   "version": "0.1.0",
+  "homepage": "https://vlxdnt.github.io/simbolismul-european",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
