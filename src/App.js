@@ -20,7 +20,7 @@ import Lectia6 from './components/pages/lectii/lectia6';
 export default function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Routes>
           <Route exact path='/' element={<Home/>} />

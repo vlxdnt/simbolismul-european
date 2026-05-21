@@ -3,6 +3,8 @@ import '../../../App.css'
 import './css/lectie.css'
 import { Button } from '../../Button'
 
+import mallarme from '../../../img/mallarme.jpg'
+
 export default function Lectia32() {
   return (
     <div className='container'>
@@ -27,7 +29,7 @@ export default function Lectia32() {
                   </p>
                 </td>
                 <td>
-                  <img className='img-rep' src='/img/mallarme.jpg' alt='mallarme' />
+                  <img className='img-rep' src={mallarme} alt='mallarme' />
                 </td>
               </tr>
             </table>

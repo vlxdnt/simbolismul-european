@@ -59,7 +59,7 @@ export default function Lectia6() {
         </div>
         <div className='navigation'>
           <ReactAudioPlayer 
-            src='/audio/plumb.mp3'
+            src={require('../../../audio/plumb.mp3')}
             controls
           />
         </div>

@@ -3,6 +3,8 @@ import '../../../App.css'
 import './css/lectie.css'
 import { Button } from '../../Button'
 
+import verlaine from '../../../img/verlaine.jpg'
+
 export default function Lectia3() {
   return (
     <div className='container'>
@@ -28,7 +30,7 @@ export default function Lectia3() {
                   </p>
                 </td>
                 <td>
-                  <img className='img-rep' src='/img/verlaine.jpg' alt='verlaine' />
+                  <img className='img-rep' src={verlaine} alt='verlaine' />
                 </td>
               </tr>
             </table>

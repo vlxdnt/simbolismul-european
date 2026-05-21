@@ -2,6 +2,9 @@ import React from 'react'
 import '../../../App.css'
 import './css/lectie.css'
 import { Button } from '../../Button'
+
+import bacovia from '../../../img/bacovia2.jpg'
+
 export default function Lectia53() {
   return (
     <div className='container'>
@@ -30,7 +33,7 @@ export default function Lectia53() {
                   </p>
                 </td>
                 <td>
-                  <img className='img-rep' src='/img/bacovia2.jpg' alt='bacovia' />
+                  <img className='img-rep' src={bacovia} alt='bacovia' />
                 </td>
               </tr>
             </table>
